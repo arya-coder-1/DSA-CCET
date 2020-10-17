@@ -1,0 +1,25 @@
+STEPS:
+
+                1.If first=NULL then{
+
+                                Print “List empty”;  STOP;}
+
+                2.ptr=First;      [point ptr to the 1st node]
+
+                3.while (ptr<>NULL) repeat steps 4 to 5
+
+                4.If (DATA (ptr)= ‘X’)
+
+                                Then {print “item found”;
+
+                                STOP
+
+                                }
+
+                5.ptr=NEXT (ptr);  [shift ptr to the next node]
+
+                                                [end of while]
+
+                6.Print “item not found”;
+
+                7.END
